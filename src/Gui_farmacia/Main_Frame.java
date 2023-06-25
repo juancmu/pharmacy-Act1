@@ -414,6 +414,11 @@ public class Main_Frame extends JFrame implements ActionListener {
 		chckbxMainBranch.setSelected(false);
 		chckbxSecondaryBranch.setSelected(false);
 		
+		for (int i = 0; i < 5; i++) {
+			lblError[i].setText("");
+			}
+		
+		
 	}
 }
 
